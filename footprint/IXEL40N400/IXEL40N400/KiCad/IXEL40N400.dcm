@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IXEL40N400
+D IGBT Transistors 4000V 425ns IGBT
+K
+F http://ixapps.ixys.com/DataSheet/DS99385B(IXEL40N400)_.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,18 @@
+.IXEL40N400 :1 ;IGBT Transistors 4000V 425ns IGBT
+IXBL60N360
+*STM Q
+*NGS
+*PLB 1="G" 2="E" 3="C"
+*MXP 3
+*DFN IXEL40N400
+~!Manufacturer_Name (LITTELFUSE)
+~!Manufacturer_Part_Number (IXEL40N400)
+~!Mouser Part Number (747-IXEL40N400)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/IXYS/IXEL40N400?qs=t7yjd2JO%2FgQQyIM84CsuoQ%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://ixapps.ixys.com/DataSheet/DS99385B(IXEL40N400)_.pdf)
+~!Height (26.42mm)
+~!3D_Model (IXEL40N400)
+IXEL40N400
+1.1!U 2.1!U 3.1!U 

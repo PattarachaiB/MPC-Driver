@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IXEL40N400'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "LITTELFUSE", "IXEL40N400" (!) = "", "IXBL60N360", "Other", "747-IXEL40N400", "https://www.mouser.co.uk/ProductDetail/IXYS/IXEL40N400?qs=t7yjd2JO%2FgQQyIM84CsuoQ%3D%3D", "", "", "IGBT Transistors 4000V 425ns IGBT", "http://ixapps.ixys.com/DataSheet/DS99385B(IXEL40N400)_.pdf", "26.42 mm"
+END_PART
+
+END.

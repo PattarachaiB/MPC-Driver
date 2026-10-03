@@ -1,0 +1,1813 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "35ede9f6-2cf4-4042-a50c-e7fa70aab9f4")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 105.41 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00e0ba2a-6ba3-439c-b46f-0670b424593d")
+	)
+	(junction
+		(at 144.78 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a75b506-21b4-4fa5-8de2-3b764df803c1")
+	)
+	(junction
+		(at 142.24 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e1c0d44-6a9f-4762-be02-0090d6190102")
+	)
+	(junction
+		(at 105.41 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "216a7068-61c2-4be2-acc0-a4a2e236d63c")
+	)
+	(junction
+		(at 142.24 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c3d07a4-a495-4328-98db-78a8b00e709a")
+	)
+	(junction
+		(at 105.41 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d02b0c0-6b19-41f0-89c3-f3ef4f108ebb")
+	)
+	(junction
+		(at 166.37 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fc40160-a258-4d8f-905d-d2b6fc3b0716")
+	)
+	(junction
+		(at 142.24 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3beec690-4888-4f14-91b9-2f86a0860b0e")
+	)
+	(junction
+		(at 105.41 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "430ef9e9-3dc6-42df-9f29-9f8a992a8eba")
+	)
+	(junction
+		(at 142.24 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "547ad7b1-04b6-4340-b48f-6f41b4fc89b3")
+	)
+	(junction
+		(at 180.34 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56618689-8f68-40e2-b756-d5cc2bf2c60d")
+	)
+	(junction
+		(at 144.78 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58ca116e-1ab4-450d-b82e-d0f98b7e7bb6")
+	)
+	(junction
+		(at 142.24 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bf2a176-2455-4074-8619-7c2a7cc5450e")
+	)
+	(junction
+		(at 144.78 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74e81f72-eba4-4e19-bb5f-1f43b675ea4a")
+	)
+	(junction
+		(at 144.78 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84b51270-8623-4c3f-ad4c-14d3a7e646d0")
+	)
+	(junction
+		(at 105.41 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85063bac-fba5-4f47-82dc-a94703738057")
+	)
+	(junction
+		(at 105.41 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96d24de4-7483-4bcf-8268-6dc6b5811b9d")
+	)
+	(junction
+		(at 144.78 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a76122a2-b368-4c00-9c56-5640866bc670")
+	)
+	(junction
+		(at 144.78 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa040568-0ca5-460f-a22c-1207d7a44108")
+	)
+	(junction
+		(at 180.34 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0e7c971-60cf-47c8-9818-df2625639ce5")
+	)
+	(junction
+		(at 142.24 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c88ce32e-592f-4059-a183-68afa49665fb")
+	)
+	(junction
+		(at 105.41 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc139ee3-66c2-4b94-8db5-f6f065f3f00e")
+	)
+	(junction
+		(at 142.24 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9123642-30b5-4068-90fd-73256ac5f19e")
+	)
+	(junction
+		(at 166.37 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1825ec5-a511-4576-ad2a-9a30e87e06e9")
+	)
+	(junction
+		(at 144.78 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff1dd982-dbcf-46c9-9518-c7c82ca1e906")
+	)
+	(wire
+		(pts
+			(xy 144.78 40.64) (xy 144.78 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "004a17cd-085f-43ec-8336-aaffa32cae27")
+	)
+	(wire
+		(pts
+			(xy 92.71 40.64) (xy 105.41 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b5c523-0d35-438f-b685-e8954efd7e79")
+	)
+	(wire
+		(pts
+			(xy 142.24 127) (xy 133.35 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e3bd16c-f54e-4973-9b12-6fba7f8e3122")
+	)
+	(wire
+		(pts
+			(xy 180.34 52.07) (xy 180.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f80f991-8c8a-4946-ab36-2c2ece9fb77f")
+	)
+	(wire
+		(pts
+			(xy 111.76 139.7) (xy 105.41 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9788a4-7698-46fa-aeb1-683de19a5764")
+	)
+	(wire
+		(pts
+			(xy 111.76 90.17) (xy 105.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2deef6f8-545c-434a-b90c-3e9357b313f4")
+	)
+	(wire
+		(pts
+			(xy 105.41 73.66) (xy 105.41 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ed55795-181e-48b5-8fce-d5b64d2ce401")
+	)
+	(wire
+		(pts
+			(xy 180.34 40.64) (xy 166.37 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f85f4ae-88c3-4e60-8d6d-4a3fef0f498e")
+	)
+	(wire
+		(pts
+			(xy 142.24 44.45) (xy 157.48 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33b0f365-7cd6-403c-b964-380b4a9267d0")
+	)
+	(wire
+		(pts
+			(xy 105.41 40.64) (xy 105.41 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d9722c8-e9db-4ded-9656-a26d4546af07")
+	)
+	(wire
+		(pts
+			(xy 144.78 139.7) (xy 133.35 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e2f1162-df24-48ad-a509-e349b3f99f30")
+	)
+	(wire
+		(pts
+			(xy 133.35 60.96) (xy 142.24 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ab96ec-c56c-4263-8142-83d9627d49aa")
+	)
+	(wire
+		(pts
+			(xy 111.76 106.68) (xy 105.41 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4353729b-259c-42fc-9905-c23e37cf2b9f")
+	)
+	(wire
+		(pts
+			(xy 142.24 44.45) (xy 133.35 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435eee4d-3b4c-480e-bc14-79c42826312a")
+	)
+	(wire
+		(pts
+			(xy 142.24 60.96) (xy 142.24 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e7f55c-fea7-4b2d-97c1-e7310df16704")
+	)
+	(wire
+		(pts
+			(xy 142.24 93.98) (xy 133.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dda4391-427b-4a4b-9f69-653932a42d32")
+	)
+	(wire
+		(pts
+			(xy 157.48 44.45) (xy 157.48 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0fc99c-cc63-4d8f-a076-0c30c57b29ca")
+	)
+	(wire
+		(pts
+			(xy 157.48 55.88) (xy 180.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6763d6fa-f257-4217-8b38-dbc8b203423f")
+	)
+	(wire
+		(pts
+			(xy 180.34 44.45) (xy 180.34 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f2b0b77-73ac-47d2-af90-f92f19830011")
+	)
+	(wire
+		(pts
+			(xy 105.41 123.19) (xy 105.41 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7424e324-e47e-428f-b665-cc4c47797505")
+	)
+	(wire
+		(pts
+			(xy 144.78 57.15) (xy 133.35 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c46ca22-f293-42b8-a0ea-2e38dcef6d5d")
+	)
+	(wire
+		(pts
+			(xy 142.24 77.47) (xy 133.35 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81211ce3-ccad-4fa5-b967-7e68d3777c5a")
+	)
+	(wire
+		(pts
+			(xy 142.24 110.49) (xy 142.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4ca828-78af-4b32-a6e5-e2b3f80626a4")
+	)
+	(wire
+		(pts
+			(xy 144.78 156.21) (xy 144.78 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da84765-aacc-4317-ac53-5c9bafe56788")
+	)
+	(wire
+		(pts
+			(xy 133.35 73.66) (xy 144.78 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd7d737-681b-441c-b5fe-567f19403c58")
+	)
+	(wire
+		(pts
+			(xy 111.76 40.64) (xy 105.41 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9da7e4b0-c0ce-483c-93f9-4aa3534c9255")
+	)
+	(wire
+		(pts
+			(xy 105.41 57.15) (xy 111.76 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df8d14a-4b10-4118-b43b-efca9b725515")
+	)
+	(wire
+		(pts
+			(xy 144.78 73.66) (xy 144.78 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f0001e6-3f8b-4551-b2f9-43d4e4a83428")
+	)
+	(wire
+		(pts
+			(xy 133.35 90.17) (xy 144.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f13b251-9606-4166-b77f-4ebad52e2a49")
+	)
+	(wire
+		(pts
+			(xy 105.41 139.7) (xy 105.41 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f600d65-cc0e-41df-b60c-e13cc3273ab3")
+	)
+	(wire
+		(pts
+			(xy 144.78 123.19) (xy 144.78 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c8ec40-a8c7-4bb8-b3c6-82add364e166")
+	)
+	(wire
+		(pts
+			(xy 105.41 106.68) (xy 105.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ae4922-e914-48ae-82a1-23f729b935b6")
+	)
+	(wire
+		(pts
+			(xy 133.35 40.64) (xy 144.78 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f76d9f-2315-480f-a4b7-f22cbc620c14")
+	)
+	(wire
+		(pts
+			(xy 180.34 55.88) (xy 198.12 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4944bcc-3bb2-48f8-8cf2-93b2f17c55d3")
+	)
+	(wire
+		(pts
+			(xy 144.78 123.19) (xy 144.78 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7767ecf-f306-4a4d-ab7d-8846fa064a02")
+	)
+	(wire
+		(pts
+			(xy 133.35 123.19) (xy 144.78 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6d1eaf-ba28-431f-8271-06c4484483c3")
+	)
+	(wire
+		(pts
+			(xy 133.35 110.49) (xy 142.24 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc79d055-a976-49c3-9284-6f6a31da7eea")
+	)
+	(wire
+		(pts
+			(xy 142.24 77.47) (xy 142.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd805c07-b27c-4492-8935-44f8ec1190a6")
+	)
+	(wire
+		(pts
+			(xy 133.35 143.51) (xy 142.24 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0712709-72c9-44f6-9a3a-a6b5a5f90129")
+	)
+	(wire
+		(pts
+			(xy 142.24 110.49) (xy 142.24 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2dd91ae-e269-48ce-8298-480ee91920ef")
+	)
+	(wire
+		(pts
+			(xy 142.24 60.96) (xy 142.24 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c34741a8-f119-438a-83a4-c928672453d5")
+	)
+	(wire
+		(pts
+			(xy 133.35 156.21) (xy 144.78 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c59ab405-e70b-4577-8774-31fd059dc2c7")
+	)
+	(wire
+		(pts
+			(xy 142.24 127) (xy 142.24 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d185d7-0837-401e-afb6-b37e0ccae06c")
+	)
+	(wire
+		(pts
+			(xy 111.76 156.21) (xy 105.41 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef00926-9643-499e-ab89-8e84e755f546")
+	)
+	(wire
+		(pts
+			(xy 180.34 40.64) (xy 198.12 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a89818-453e-4c6f-ac5c-68268eadb4ab")
+	)
+	(wire
+		(pts
+			(xy 144.78 90.17) (xy 144.78 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6ee44e2-00a0-4ef8-91a2-9c28a7c76891")
+	)
+	(wire
+		(pts
+			(xy 111.76 73.66) (xy 105.41 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9bfd3b3-e1b9-4560-8de8-c8b8f54881bb")
+	)
+	(wire
+		(pts
+			(xy 142.24 143.51) (xy 142.24 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da409332-8290-4196-a4c0-a1c6e481b410")
+	)
+	(wire
+		(pts
+			(xy 105.41 156.21) (xy 105.41 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe812bb-554a-49a0-ad36-6b7cd19cdaf2")
+	)
+	(wire
+		(pts
+			(xy 144.78 106.68) (xy 133.35 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15c2b2e-ec1f-4911-95e1-41e507d27327")
+	)
+	(wire
+		(pts
+			(xy 144.78 40.64) (xy 166.37 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e225a302-3113-4007-97e5-5273e459d085")
+	)
+	(wire
+		(pts
+			(xy 144.78 73.66) (xy 144.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3910d96-b78e-4cfd-815a-d86dab851aba")
+	)
+	(wire
+		(pts
+			(xy 105.41 90.17) (xy 105.41 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6556747-b66e-4fc4-a4bd-2b78748fdede")
+	)
+	(wire
+		(pts
+			(xy 166.37 55.88) (xy 166.37 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb0b9af-050b-48dc-8499-615910cf8a2f")
+	)
+	(wire
+		(pts
+			(xy 111.76 123.19) (xy 105.41 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef514d01-4277-44ec-bfe4-c5e785d7dc38")
+	)
+	(wire
+		(pts
+			(xy 166.37 40.64) (xy 166.37 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4cc1855-ea47-4b18-91af-96ab38dcfe0c")
+	)
+	(wire
+		(pts
+			(xy 142.24 160.02) (xy 133.35 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff8b7664-15df-491e-a937-d3ef52530d5e")
+	)
+	(global_label "GATE_BUS"
+		(shape input)
+		(at 92.71 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01d9ec68-ae34-425b-a41e-bf8ae086fc95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.472 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "E_BUS"
+		(shape input)
+		(at 198.12 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39895dc1-e473-4c7e-8e9c-f359d5482cdd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.0318 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "C_BUS"
+		(shape input)
+		(at 198.12 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef9b2daf-f51e-45e0-8da4-cab305befe8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.1528 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 166.37 48.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6eae8f34-238f-4dd8-a30a-c00ad7dff1ec")
+		(property "Reference" "D1"
+			(at 168.91 46.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GP02-40"
+			(at 168.91 49.5299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 166.37 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 166.37 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 166.37 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c2653c1-7d1a-43a6-916c-1123df065f8f")
+		)
+		(pin "2"
+			(uuid "da0279c3-3357-400b-91fa-0a311720c31a")
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 180.34 48.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7357d462-6ed2-4726-8208-a38cce813181")
+		(property "Reference" "D2"
+			(at 182.88 46.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GP02-40"
+			(at 182.88 49.5299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 180.34 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 180.34 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 180.34 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8668960-9180-40f5-b5c5-3c1ef792c3c6")
+		)
+		(pin "2"
+			(uuid "d37fed14-a8d6-4c8f-b7e6-4088ea0286f9")
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 86.36)
+		(size 21.59 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6553b86b-fe0e-4f18-a094-3d99025b532a")
+		(property "Sheetname" "IGBT4"
+			(at 111.76 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IGBT_Switching_Cell.kicad_sch"
+			(at 111.76 97.1046 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "C_BUS" input
+			(at 133.35 90.17 0)
+			(uuid "9234544d-3148-48b0-959d-92a6404f6bb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E_BUS" input
+			(at 133.35 93.98 0)
+			(uuid "301241ab-ed80-42c3-9089-46b2c9366d12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GATE_BUS" input
+			(at 111.76 90.17 180)
+			(uuid "bdb3443c-6ff1-43fc-a3f8-b05a24387ffc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 69.85)
+		(size 21.59 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "66790723-2fe0-4d9e-bb65-78ae94e350c6")
+		(property "Sheetname" "IGBT3"
+			(at 111.76 69.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IGBT_Switching_Cell.kicad_sch"
+			(at 111.76 80.5946 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "C_BUS" input
+			(at 133.35 73.66 0)
+			(uuid "e4018d4e-7ef5-4053-8ceb-1ce21bb8a2ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E_BUS" input
+			(at 133.35 77.47 0)
+			(uuid "8729a7e5-81c6-4616-8856-997db55293c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GATE_BUS" input
+			(at 111.76 73.66 180)
+			(uuid "704e57e5-6255-41c6-ac3e-d4f217aafbc5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 36.83)
+		(size 21.59 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "87e96292-1132-46c7-b0f5-bf3007a08a1f")
+		(property "Sheetname" "IGBT1"
+			(at 111.76 36.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IGBT_Switching_Cell.kicad_sch"
+			(at 111.76 47.5746 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "C_BUS" input
+			(at 133.35 40.64 0)
+			(uuid "b42db48c-4ad0-45e1-b058-dbd7729ed437")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E_BUS" input
+			(at 133.35 44.45 0)
+			(uuid "e22bfa8d-d1a8-45e6-91d1-a9d6beee28c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GATE_BUS" input
+			(at 111.76 40.64 180)
+			(uuid "a2fb478a-f327-483c-9c6c-df3fb695b808")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 119.38)
+		(size 21.59 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ced36a5b-3f0d-4203-a7a6-51014d05e91a")
+		(property "Sheetname" "IGBT6"
+			(at 111.76 118.6684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IGBT_Switching_Cell.kicad_sch"
+			(at 111.76 130.1246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "C_BUS" input
+			(at 133.35 123.19 0)
+			(uuid "82d57379-ac75-4c94-b95d-912fa3e22514")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E_BUS" input
+			(at 133.35 127 0)
+			(uuid "61c9b81b-bf28-4786-b19e-f96de7e911e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GATE_BUS" input
+			(at 111.76 123.19 180)
+			(uuid "214f32d1-5422-4dfd-99b5-edba1e1693da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 53.34)
+		(size 21.59 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d0d4bf35-9f88-4fd6-8c8c-9bd5bc59373c")
+		(property "Sheetname" "IGBT2"
+			(at 111.76 52.6284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IGBT_Switching_Cell.kicad_sch"
+			(at 111.76 64.0846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "C_BUS" input
+			(at 133.35 57.15 0)
+			(uuid "4992f9fb-dde2-4210-9441-16abc87f957a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E_BUS" input
+			(at 133.35 60.96 0)
+			(uuid "fee6af26-1beb-42c8-b544-d982d78dcaca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GATE_BUS" input
+			(at 111.76 57.15 180)
+			(uuid "ee8c519d-5e08-4a1c-9615-46e64770023c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 102.87)
+		(size 21.59 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d87410c1-d98d-4e29-8414-6cbcf0ff4816")
+		(property "Sheetname" "IGBT5"
+			(at 111.76 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IGBT_Switching_Cell.kicad_sch"
+			(at 111.76 113.6146 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "C_BUS" input
+			(at 133.35 106.68 0)
+			(uuid "c7dbe585-60c7-4bec-8b72-dca1a35cc318")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E_BUS" input
+			(at 133.35 110.49 0)
+			(uuid "4e266ae7-5595-4242-8c91-8ae9332b9fdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GATE_BUS" input
+			(at 111.76 106.68 180)
+			(uuid "b7dc9ac8-1b9d-4407-a868-783066244b71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 152.4)
+		(size 21.59 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f1a3c9ed-b8da-4207-9829-72671f58cc3e")
+		(property "Sheetname" "IGBT8"
+			(at 111.76 151.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IGBT_Switching_Cell.kicad_sch"
+			(at 111.76 163.1446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "C_BUS" input
+			(at 133.35 156.21 0)
+			(uuid "f06d4605-b7f9-4470-a20e-0d1baa98c00c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E_BUS" input
+			(at 133.35 160.02 0)
+			(uuid "a6c59834-3771-42b1-97c5-65a4cbbbf425")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GATE_BUS" input
+			(at 111.76 156.21 180)
+			(uuid "e8a72461-e10c-44fd-8f3c-51a81f8a5c74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 135.89)
+		(size 21.59 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fd6a9f3c-85e2-4c43-a059-d2c6f3fd793d")
+		(property "Sheetname" "IGBT7"
+			(at 111.76 135.1784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IGBT_Switching_Cell.kicad_sch"
+			(at 111.76 146.6346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "C_BUS" input
+			(at 133.35 139.7 0)
+			(uuid "d82d3a9e-6e20-4e04-8e6f-a6b8bfa883cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E_BUS" input
+			(at 133.35 143.51 0)
+			(uuid "9988641e-f62d-4148-ac32-053353de7398")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GATE_BUS" input
+			(at 111.76 139.7 180)
+			(uuid "deedce16-7fa4-4351-baa2-75eef1d5e949")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8"
+					(page "9")
+				)
+			)
+		)
+	)
+)

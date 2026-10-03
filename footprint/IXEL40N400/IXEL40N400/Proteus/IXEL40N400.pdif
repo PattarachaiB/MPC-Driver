@@ -1,0 +1,184 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "IXEL40N400"
+   (description "IGBT Transistors 4000V 425ns IGBT")
+   (family "TRX")
+   (package "IXBL60N360")
+   (attribute "Datasheet Link" "http://ixapps.ixys.com/DataSheet/DS99385B(IXEL40N400)_.pdf")
+   (attribute "Geometry.Height" "26.42mm")
+   (attribute "Manufacturer_Name" "LITTELFUSE")
+   (attribute "Manufacturer_Part_Number" "IXEL40N400")
+   (attribute "Mouser Part Number" "747-IXEL40N400")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/IXYS/IXEL40N400?qs=t7yjd2JO%2FgQQyIM84CsuoQ%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "IXEL40N400")
+    (pin "G" 1 PS)
+    (pin "C" 3 PS)
+    (pin "E" 2 PS)
+   )
+  )
+  (symbol "IXEL40N400"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (circle (pt 400 50) (pt 100 50))
+   )
+   (graphic
+    (stroke 15)
+    (circle (pt 310 160) (pt 290 160))
+   )
+   (graphic
+    (stroke 15)
+    (circle (pt 310 -60) (pt 290 -60))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 -40) (pt 300 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 140) (pt 300 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0) (pt 200 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 -16) (pt 230 16))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 320 70) (pt 360 70))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 0) (pt 300 -40))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 140) (pt 230 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 50) (pt 300 10))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 340 70) (pt 340 160) (pt 300 160))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 340 30) (pt 340 -60) (pt 300 -60))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 34) (pt 230 66))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 86) (pt 230 118))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 84) (pt 230 116))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 340 70) (pt 320 30) (pt 360 30) (pt 340 70))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 260 -30) (pt 270 -10) (pt 300 -40) (pt 260 -30))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 270 110) (pt 260 130) (pt 230 100) (pt 270 110))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 80 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 300 300) (rot 90) (mir X) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 300 -200) (rot 90) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "IXBL60N360"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.34 3.17)
+      (pt 17.58 3.17)
+      (pt 17.58 -1.85)
+      (pt -2.34 -1.85)
+      (pt -2.34 3.17))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.34 3.17)
+      (pt 17.58 3.17)
+      (pt 17.58 -1.85)
+      (pt -2.34 -1.85)
+      (pt -2.34 3.17))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.34 4.17)
+      (pt 18.58 4.17)
+      (pt 18.58 -2.85)
+      (pt -3.34 -2.85)
+      (pt -3.34 4.17))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 3.810 0.000) (padstack 0))
+   (leg 3 (pt 15.240 0.000) (padstack 0))
+   (padstack 0
+    (hole 1.78)
+    (plated true)
+    (pad (layer TCOP) (round 2.670))
+    (pad (layer INNER) (round 2.670))
+    (pad (layer BCOP) (round 2.670))
+   )
+   (padstack 1
+    (hole 1.78)
+    (plated true)
+    (pad (layer TCOP) (square 2.670))
+    (pad (layer INNER) (round 2.670))
+    (pad (layer BCOP) (square 2.670))
+   )
+   (model "IXEL40N400.stp"
+    (euler 90 0 0)
+    (offset 7.619999885559082 0.12999999523162842 3.0199999809265137)
+   )
+  )
+ )
+)

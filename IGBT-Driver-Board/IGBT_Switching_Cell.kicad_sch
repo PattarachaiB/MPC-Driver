@@ -1,0 +1,1677 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9542dde6-7a58-4f22-a0b0-739eebfee09c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:D_Zener"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Pattarachai's_Lib:IXEL40N400"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 11.43 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "IXEL40N400"
+				(at 11.43 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Pattarachai's_FootprintLib:IXEL40N400"
+				(at 11.43 -100 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://ixapps.ixys.com/DataSheet/DS99385B(IXEL40N400)_.pdf"
+				(at 11.43 -200 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "IGBT Transistors 4000V 425ns IGBT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "26.42"
+				(at 11.43 -400 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "LITTELFUSE"
+				(at 11.43 -500 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "IXEL40N400"
+				(at 11.43 -600 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "747-IXEL40N400"
+				(at 11.43 -700 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/IXYS/IXEL40N400?qs=t7yjd2JO%2FgQQyIM84CsuoQ%3D%3D"
+				(at 11.43 -800 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 11.43 -900 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 11.43 -1000 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "IXEL40N400_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.1844) (xy 5.842 2.9972)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.1336) (xy 5.842 2.9464)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 1.27) (xy 7.62 0.254)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0.8636) (xy 5.842 1.6764)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.4064) (xy 5.842 0.4064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 1.27)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 -0.762) (xy 6.858 -0.254) (xy 7.62 -1.016) (xy 6.604 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.858 2.794) (xy 6.604 3.302) (xy 5.842 2.54) (xy 6.858 2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 4.064) (xy 8.636 4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 4.064)
+					(radius 0.254)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 3.556) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 3.556) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.016) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.524) (xy 8.636 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -1.524)
+					(radius 0.254)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.128 1.778) (xy 9.144 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.636 1.778) (xy 8.636 4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.636 1.778) (xy 8.128 0.762) (xy 9.144 0.762) (xy 8.636 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.636 0.762) (xy 8.636 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 119.38 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1175768a-a895-47ba-aae3-b4168ffac568")
+	)
+	(junction
+		(at 138.43 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2752690d-0857-4f43-a372-c24341026565")
+	)
+	(junction
+		(at 138.43 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86d77d14-6140-4fa7-85c5-22a054975197")
+	)
+	(junction
+		(at 153.67 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3f8de85-c880-43f5-aeb6-01e812571a3b")
+	)
+	(wire
+		(pts
+			(xy 119.38 100.33) (xy 119.38 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f4b1af-ba7c-4fc6-a351-33ec1327d592")
+	)
+	(wire
+		(pts
+			(xy 153.67 113.03) (xy 177.8 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "147c8d2b-310d-4f8c-8484-a6e4fd5ec653")
+	)
+	(wire
+		(pts
+			(xy 119.38 91.44) (xy 138.43 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b85e403-6545-4cc0-8322-bbf787d1d994")
+	)
+	(wire
+		(pts
+			(xy 119.38 92.71) (xy 119.38 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "205c66a3-0f52-4900-960e-dfe0da8b57bd")
+	)
+	(wire
+		(pts
+			(xy 109.22 91.44) (xy 119.38 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5303441f-5f2c-4dae-a632-73b818b50fed")
+	)
+	(wire
+		(pts
+			(xy 119.38 110.49) (xy 119.38 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7279be97-2781-407f-bf17-72d297a66347")
+	)
+	(wire
+		(pts
+			(xy 138.43 113.03) (xy 153.67 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76405ff7-e288-401c-b125-a49e0c8506e2")
+	)
+	(wire
+		(pts
+			(xy 86.36 91.44) (xy 101.6 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8021b892-3473-42cf-b3e1-dd4dbe470b76")
+	)
+	(wire
+		(pts
+			(xy 119.38 113.03) (xy 138.43 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8503ed7d-388d-4a28-80c9-8ae57481d6a6")
+	)
+	(wire
+		(pts
+			(xy 153.67 96.52) (xy 153.67 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "917949b6-9a40-4b7d-a858-2727604f4218")
+	)
+	(wire
+		(pts
+			(xy 153.67 83.82) (xy 153.67 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7073f9-2116-4a42-b2b1-bada056e2be0")
+	)
+	(wire
+		(pts
+			(xy 153.67 67.31) (xy 177.8 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af341ae4-40ab-493d-80ce-6b68e17ca266")
+	)
+	(wire
+		(pts
+			(xy 138.43 91.44) (xy 146.05 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb30459e-1412-4383-8371-f75b050f470d")
+	)
+	(wire
+		(pts
+			(xy 138.43 91.44) (xy 138.43 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2407a80-8003-4212-a9a0-dadb2ad08c56")
+	)
+	(wire
+		(pts
+			(xy 138.43 106.68) (xy 138.43 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9281b3-620e-4abb-bded-d01b2bd10275")
+	)
+	(hierarchical_label "E_BUS"
+		(shape input)
+		(at 177.8 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68c7d280-8170-40cf-a4b9-13ca9df3365f")
+	)
+	(hierarchical_label "C_BUS"
+		(shape input)
+		(at 177.8 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7047f5e8-209a-4698-955b-76caf5bd2701")
+	)
+	(hierarchical_label "GATE_BUS"
+		(shape input)
+		(at 86.36 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d06342c2-b281-4b42-8d69-2ae94952a6f9")
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 119.38 96.52 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64ecfb49-775f-4902-b482-a2e4c371f4a2")
+		(property "Reference" "D3"
+			(at 121.92 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4750A 27V"
+			(at 121.92 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+			(at 119.38 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 119.38 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ad33e694-15b4-4876-9609-af8fa3e2e72a")
+		)
+		(pin "1"
+			(uuid "307a37ad-bafe-4d00-9434-e3d7f0225870")
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/6553b86b-fe0e-4f18-a094-3d99025b532a"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/66790723-2fe0-4d9e-bb65-78ae94e350c6"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/87e96292-1132-46c7-b0f5-bf3007a08a1f"
+					(reference "D3")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/ced36a5b-3f0d-4203-a7a6-51014d05e91a"
+					(reference "D13")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/d0d4bf35-9f88-4fd6-8c8c-9bd5bc59373c"
+					(reference "D5")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/d87410c1-d98d-4e29-8414-6cbcf0ff4816"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/f1a3c9ed-b8da-4207-9829-72671f58cc3e"
+					(reference "D17")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/fd6a9f3c-85e2-4c43-a059-d2c6f3fd793d"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 119.38 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8796b2b4-f9e0-455e-b963-f6648b061e59")
+		(property "Reference" "D4"
+			(at 121.92 105.4099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4737A 7.5V"
+			(at 121.92 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+			(at 119.38 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 119.38 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ca36c0e8-34f6-4799-bf2a-fa01235a692f")
+		)
+		(pin "1"
+			(uuid "e5f7d83e-1ee8-4f06-bd80-51cac5f70c1b")
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/6553b86b-fe0e-4f18-a094-3d99025b532a"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/66790723-2fe0-4d9e-bb65-78ae94e350c6"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/87e96292-1132-46c7-b0f5-bf3007a08a1f"
+					(reference "D4")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/ced36a5b-3f0d-4203-a7a6-51014d05e91a"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/d0d4bf35-9f88-4fd6-8c8c-9bd5bc59373c"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/d87410c1-d98d-4e29-8414-6cbcf0ff4816"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/f1a3c9ed-b8da-4207-9829-72671f58cc3e"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/fd6a9f3c-85e2-4c43-a059-d2c6f3fd793d"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 138.43 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93eea14b-297c-4c0b-bc82-57fd56a9bdc1")
+		(property "Reference" "R2"
+			(at 140.97 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k 0.25W"
+			(at 140.97 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 139.446 103.124 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 138.43 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7c4e6889-7b0a-494d-81da-ff0acc77a947")
+		)
+		(pin "1"
+			(uuid "7e8ff7db-82cd-405f-8b70-c5da1d459a85")
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/6553b86b-fe0e-4f18-a094-3d99025b532a"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/66790723-2fe0-4d9e-bb65-78ae94e350c6"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/87e96292-1132-46c7-b0f5-bf3007a08a1f"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/ced36a5b-3f0d-4203-a7a6-51014d05e91a"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/d0d4bf35-9f88-4fd6-8c8c-9bd5bc59373c"
+					(reference "R4")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/d87410c1-d98d-4e29-8414-6cbcf0ff4816"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/f1a3c9ed-b8da-4207-9829-72671f58cc3e"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/fd6a9f3c-85e2-4c43-a059-d2c6f3fd793d"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pattarachai's_Lib:IXEL40N400")
+		(at 146.05 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a22ae5c-43d6-4af2-b384-6ee7e0e49ec6")
+		(property "Reference" "Q1"
+			(at 157.48 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IXEL40N400"
+			(at 157.48 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Pattarachai's_FootprintLib:IXEL40N400"
+			(at 157.48 191.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://ixapps.ixys.com/DataSheet/DS99385B(IXEL40N400)_.pdf"
+			(at 157.48 291.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "IGBT Transistors 4000V 425ns IGBT"
+			(at 146.05 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "26.42"
+			(at 157.48 491.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 157.48 591.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IXEL40N400"
+			(at 157.48 691.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "747-IXEL40N400"
+			(at 157.48 791.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/IXYS/IXEL40N400?qs=t7yjd2JO%2FgQQyIM84CsuoQ%3D%3D"
+			(at 157.48 891.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 157.48 991.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 157.48 1091.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "c3ed3652-7060-4a8b-b324-9189ca5a1ced")
+		)
+		(pin "3"
+			(uuid "d0efce10-b96f-429f-8665-daeb6540862c")
+		)
+		(pin "2"
+			(uuid "eb022484-5616-4f75-9256-efe5d180e923")
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/6553b86b-fe0e-4f18-a094-3d99025b532a"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/66790723-2fe0-4d9e-bb65-78ae94e350c6"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/87e96292-1132-46c7-b0f5-bf3007a08a1f"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/ced36a5b-3f0d-4203-a7a6-51014d05e91a"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/d0d4bf35-9f88-4fd6-8c8c-9bd5bc59373c"
+					(reference "Q2")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/d87410c1-d98d-4e29-8414-6cbcf0ff4816"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/f1a3c9ed-b8da-4207-9829-72671f58cc3e"
+					(reference "Q8")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/fd6a9f3c-85e2-4c43-a059-d2c6f3fd793d"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 105.41 91.44 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f13d8b33-d3a3-4203-b453-3e658a133932")
+		(property "Reference" "R1"
+			(at 105.41 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10ohm 2W"
+			(at 105.41 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
+			(at 105.664 90.424 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 105.41 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8efe1fa6-a1ca-492d-af27-d1939e02bb45")
+		)
+		(pin "1"
+			(uuid "be460f16-9851-4a8a-a50d-eb7952671d2e")
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/6553b86b-fe0e-4f18-a094-3d99025b532a"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/66790723-2fe0-4d9e-bb65-78ae94e350c6"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/87e96292-1132-46c7-b0f5-bf3007a08a1f"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/ced36a5b-3f0d-4203-a7a6-51014d05e91a"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/d0d4bf35-9f88-4fd6-8c8c-9bd5bc59373c"
+					(reference "R3")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/d87410c1-d98d-4e29-8414-6cbcf0ff4816"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/f1a3c9ed-b8da-4207-9829-72671f58cc3e"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/fd6a9f3c-85e2-4c43-a059-d2c6f3fd793d"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
