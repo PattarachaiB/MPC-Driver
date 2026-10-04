@@ -6223,6 +6223,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.1588)
 			)
 			(justify right bottom)
 		)
@@ -7443,7 +7444,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "1n, C0G"
 			(at 97.79 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7524,7 +7525,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3296W-1-104"
+		(property "Value" "3296W-1-102"
 			(at 110.49 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8138,7 +8139,7 @@
 		(dnp no)
 		(uuid "38bc855c-654d-458b-9355-52b6c5a7b797")
 		(property "Reference" "C6"
-			(at 101.6 88.9 90)
+			(at 102.87 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8148,8 +8149,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470p"
-			(at 101.6 91.44 90)
+		(property "Value" "470p, C0G"
+			(at 99.06 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9438,7 +9439,7 @@
 		(dnp no)
 		(uuid "743ce6f2-1448-4d56-8406-db1df1456b40")
 		(property "Reference" "C3"
-			(at 85.725 36.195 90)
+			(at 85.09 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9448,8 +9449,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
-			(at 85.725 33.655 90)
+		(property "Value" "10n, C0G"
+			(at 88.9 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9529,7 +9530,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n, U2"
+		(property "Value" "100n"
 			(at 223.52 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9562,9 +9563,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 220.98 152.4 0)
-			(hide yes)
+		(property "Description" "U2"
+			(at 223.52 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10375,7 +10375,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u, U3"
+		(property "Value" "1u"
 			(at 254 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10408,9 +10408,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 251.46 152.4 0)
-			(hide yes)
+		(property "Description" "U3"
+			(at 254 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11353,7 +11352,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k 0.25W"
+		(property "Value" "2.7k 0.25W"
 			(at 97.79 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12360,7 +12359,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n, U1"
+		(property "Value" "100n"
 			(at 238.76 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12393,9 +12392,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 236.22 152.4 0)
-			(hide yes)
+		(property "Description" "U1"
+			(at 238.76 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12762,7 +12760,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n, U3"
+		(property "Value" "100n"
 			(at 266.7 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12795,9 +12793,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 264.16 152.4 0)
-			(hide yes)
+		(property "Description" "U3"
+			(at 266.7 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

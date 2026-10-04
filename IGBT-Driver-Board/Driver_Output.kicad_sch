@@ -1303,6 +1303,12 @@
 		(uuid "23d245ea-0690-4ba5-b14d-0bae51c92c6e")
 	)
 	(junction
+		(at 219.71 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23faadb7-a6fc-433d-a660-f7728778cfa1")
+	)
+	(junction
 		(at 219.71 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1319,12 +1325,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e7d72dd-571e-4b2d-8480-633c411e85cc")
-	)
-	(junction
-		(at 240.03 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44875a7f-7b94-468b-a894-499f8307c694")
 	)
 	(junction
 		(at 129.54 106.68)
@@ -1345,16 +1345,16 @@
 		(uuid "6ad6d2d2-521b-4ee3-a94e-8d0dd7689447")
 	)
 	(junction
+		(at 240.03 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fa06ca2-82ef-46eb-8838-9fecf680cdb8")
+	)
+	(junction
 		(at 111.76 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78eff026-8481-4864-b0c1-3d07ac71ed26")
-	)
-	(junction
-		(at 240.03 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "970a4322-881b-4283-8dd6-83c856300209")
 	)
 	(junction
 		(at 76.2 86.36)
@@ -1381,10 +1381,10 @@
 		(uuid "db07e270-0520-4e44-a890-0449852e1f10")
 	)
 	(junction
-		(at 219.71 93.98)
+		(at 240.03 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f429f09e-fee9-47a8-bef3-b0a126f842c5")
+		(uuid "f08a2fed-4fce-488d-a010-51dcd4b5eb07")
 	)
 	(wire
 		(pts
@@ -1418,16 +1418,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 104.14) (xy 199.39 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eff9e0d-80d7-4aaf-ba4d-fcae1da79e30")
-	)
-	(wire
-		(pts
 			(xy 242.57 101.6) (xy 248.92 101.6)
 		)
 		(stroke
@@ -1448,13 +1438,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 88.9) (xy 248.92 88.9)
+			(xy 237.49 91.44) (xy 240.03 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16ecb22b-447c-49ff-ab52-b7db45e91b9b")
+		(uuid "1a8f1459-161d-4e7f-818d-03f15207f90e")
 	)
 	(wire
 		(pts
@@ -1518,6 +1508,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 93.98) (xy 248.92 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd4ae99-7a2e-4fc1-9d2f-e8d6d84e8a2d")
+	)
+	(wire
+		(pts
 			(xy 219.71 114.3) (xy 242.57 114.3)
 		)
 		(stroke
@@ -1548,23 +1548,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 106.68) (xy 176.53 88.9)
+			(xy 240.03 91.44) (xy 248.92 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5219799d-ccf9-477a-9ec6-30ef1d134ddc")
-	)
-	(wire
-		(pts
-			(xy 219.71 93.98) (xy 248.92 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "532cc428-fe5c-4e17-b34d-b620ed0e0f2c")
+		(uuid "537b5ac6-b892-45de-a68a-c07bfaecdd4e")
 	)
 	(wire
 		(pts
@@ -1625,6 +1615,16 @@
 			(type default)
 		)
 		(uuid "6240bde1-6821-4bc9-aed3-660d08badb07")
+	)
+	(wire
+		(pts
+			(xy 191.77 104.14) (xy 199.39 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699bb436-2140-4859-ae9c-8609dea5b144")
 	)
 	(wire
 		(pts
@@ -1718,13 +1718,13 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 99.06) (xy 240.03 104.14)
+			(xy 241.3 88.9) (xy 248.92 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c7f4c73-9597-4611-b1c1-a054eadfbaae")
+		(uuid "9d250743-7ea7-4a6c-a995-e7872dbdce48")
 	)
 	(wire
 		(pts
@@ -1775,16 +1775,6 @@
 			(type default)
 		)
 		(uuid "a2d2110c-7110-423b-92ba-49e5e9856fb7")
-	)
-	(wire
-		(pts
-			(xy 240.03 91.44) (xy 248.92 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a79f969f-9180-4252-a29c-07e160056d53")
 	)
 	(wire
 		(pts
@@ -1858,16 +1848,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 106.68) (xy 176.53 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cda07685-c2fd-4595-93c6-547460ad036d")
-	)
-	(wire
-		(pts
 			(xy 111.76 92.71) (xy 111.76 86.36)
 		)
 		(stroke
@@ -1905,16 +1885,6 @@
 			(type default)
 		)
 		(uuid "d638a584-2858-402a-abf5-1a823a3fc75c")
-	)
-	(wire
-		(pts
-			(xy 219.71 104.14) (xy 240.03 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de9681d2-8b07-4636-8259-590510cac3d2")
 	)
 	(wire
 		(pts
@@ -2084,6 +2054,30 @@
 			)
 		)
 	)
+	(global_label "GATE_BUS"
+		(shape input)
+		(at 237.49 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95aece49-2e32-4f07-908b-5c823d4c05b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.252 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VDD"
 		(shape input)
 		(at 191.77 93.98 180)
@@ -2097,30 +2091,6 @@
 		(uuid "a8c5a806-e394-49be-aaca-d6b13a2014b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.1562 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GATE_BUS"
-		(shape output)
-		(at 191.77 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e6d08054-bccd-492a-90db-c0d5eb8e8ada")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.532 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2267,7 +2237,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u 50V CM"
+		(property "Value" "10u"
 			(at 203.2 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2817,7 +2787,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_PU 4.7k 0.25W"
+		(property "Value" "4.7k 0.25W"
 			(at 78.74 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2899,7 +2869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220p"
+		(property "Value" "220p, C0G"
 			(at 167.64 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3037,6 +3007,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCOM")
+		(at 191.77 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7214c275-288b-4e82-93d4-3b4a6a4fe579")
+		(property "Reference" "#PWR044"
+			(at 195.58 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCOM"
+			(at 187.96 104.1399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCOM\""
+			(at 191.77 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f809b8e8-0eb8-4628-8e80-895dc947d5c0")
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/f7fdbf1b-c6b8-4241-910d-37b428a7eb88/4d4e53f7-c22b-4e12-8ad4-64ba9565a1dd"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 50.8 93.98 270)
 		(unit 1)
@@ -3163,7 +3212,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_B 10k 0.25W"
+		(property "Value" "10k 0.25W"
 			(at 144.78 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3245,7 +3294,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V CM"
+		(property "Value" "100n"
 			(at 223.52 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3326,7 +3375,7 @@
 				)
 			)
 		)
-		(property "Value" "R_A 10k 0.25W"
+		(property "Value" "10k 0.25W"
 			(at 86.36 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3569,7 +3618,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Jumper_2_Open"
+		(property "Value" "DESAT OFF"
 			(at 95.25 97.7899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3733,6 +3782,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCOM")
+		(at 241.3 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acb1321c-62bb-4471-8ca9-b4668c098bb7")
+		(property "Reference" "#PWR043"
+			(at 245.11 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCOM"
+			(at 237.49 88.8999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCOM\""
+			(at 241.3 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "461e15ab-7018-4fcf-82ce-454896790adf")
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/f7fdbf1b-c6b8-4241-910d-37b428a7eb88/4d4e53f7-c22b-4e12-8ad4-64ba9565a1dd"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 50.8 115.57 270)
 		(unit 1)
@@ -3859,7 +3987,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V CM"
+		(property "Value" "100n"
 			(at 223.52 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3941,7 +4069,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u 50V CM"
+		(property "Value" "10u"
 			(at 203.2 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)

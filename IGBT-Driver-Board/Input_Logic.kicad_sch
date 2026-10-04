@@ -1378,6 +1378,248 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCOM"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCOM"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCOM\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCOM_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "VCOM_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 175.26 114.3)
@@ -1398,6 +1640,12 @@
 		(uuid "094e17be-c378-45e7-b4f5-5c5a4dd13a93")
 	)
 	(junction
+		(at 115.57 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2081e14f-7040-41ed-a505-4e45c9a9a895")
+	)
+	(junction
 		(at 187.96 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1410,12 +1658,6 @@
 		(uuid "3e4751f5-05d0-4281-9514-658e817cfaf5")
 	)
 	(junction
-		(at 115.57 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41395fa3-0637-4d9f-8790-d1a5902d75a4")
-	)
-	(junction
 		(at 55.88 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1426,6 +1668,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e27ba11-e0da-465f-b72b-5662da44aadb")
+	)
+	(junction
+		(at 115.57 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a9e7fcf-36e5-4a75-a201-1b56a9d21565")
 	)
 	(junction
 		(at 187.96 80.01)
@@ -1480,12 +1728,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eadee824-f8d3-45ec-bd9e-80e13992ae3d")
-	)
-	(junction
-		(at 115.57 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f16fdc6b-b396-4dbc-9c79-dffb98edfc75")
 	)
 	(junction
 		(at 201.93 80.01)
@@ -1581,7 +1823,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 114.3) (xy 115.57 114.3)
+			(xy 102.87 114.3) (xy 115.57 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1641,6 +1883,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 106.68) (xy 101.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "432b0c68-c2c5-462d-97f6-1e733d2b7ab0")
+	)
+	(wire
+		(pts
 			(xy 175.26 96.52) (xy 175.26 101.6)
 		)
 		(stroke
@@ -1691,7 +1943,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 93.98) (xy 115.57 93.98)
+			(xy 102.87 93.98) (xy 115.57 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1781,7 +2033,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 106.68) (xy 101.6 114.3)
+			(xy 102.87 106.68) (xy 102.87 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1911,6 +2163,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 101.6) (xy 101.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc6415c8-b159-4870-b1fa-ea89f86bffa2")
+	)
+	(wire
+		(pts
 			(xy 163.83 114.3) (xy 175.26 114.3)
 		)
 		(stroke
@@ -2021,6 +2283,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 157.48) (xy 279.4 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e40e4e56-617d-4db0-b69c-dc260f93ed2c")
+	)
+	(wire
+		(pts
 			(xy 175.26 96.52) (xy 187.96 96.52)
 		)
 		(stroke
@@ -2031,7 +2303,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 101.6) (xy 101.6 93.98)
+			(xy 102.87 101.6) (xy 102.87 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2109,19 +2381,19 @@
 		)
 		(uuid "fe6ebeeb-7c4d-40d4-b10c-e54ad95089b7")
 	)
-	(global_label "COM"
+	(global_label "VDD"
 		(shape input)
-		(at 234.95 96.52 0)
+		(at 279.4 157.48 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "697cdf9f-1464-453c-bf26-52b3b8fedb61")
+		(uuid "3abe7b88-78e8-437b-bcc4-c25d85a5a9b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.9871 96.52 0)
+			(at 279.4 164.0938 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2129,7 +2401,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -2203,7 +2475,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n, 50V"
+		(property "Value" "100n"
 			(at 203.2 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2284,7 +2556,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47µF, 50V"
+		(property "Value" "47u"
 			(at 189.23 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2422,6 +2694,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCOM")
+		(at 234.95 96.52 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ad3edd0-d623-4f0d-bf90-ce71f3c30d48")
+		(property "Reference" "#PWR041"
+			(at 231.14 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCOM"
+			(at 238.76 96.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCOM\""
+			(at 234.95 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af448dd7-0b5f-429c-8e5d-1803432813f4")
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/96774f39-b093-412e-8f8f-b317b1308084"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 187.96 87.63 0)
 		(unit 1)
@@ -2443,7 +2794,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47µF, 50V"
+		(property "Value" "47u"
 			(at 189.23 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2524,7 +2875,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u, 50V"
+		(property "Value" "1u"
 			(at 119.38 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2696,7 +3047,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u, 50V"
+		(property "Value" "10u"
 			(at 176.53 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2777,7 +3128,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n, 50V"
+		(property "Value" "100n"
 			(at 203.2 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2999,6 +3350,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 279.4 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7da3e3a2-2603-4323-8f5b-245b0a45e525")
+		(property "Reference" "#FLG03"
+			(at 279.4 153.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 279.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 279.4 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ed0edd1-ee07-4c3d-8f56-0619f50e3d4f")
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/96774f39-b093-412e-8f8f-b317b1308084"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener")
 		(at 133.35 86.36 90)
 		(unit 1)
@@ -3101,7 +3531,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u, 50V"
+		(property "Value" "10u"
 			(at 165.1 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3425,7 +3855,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u, 50V"
+		(property "Value" "10u"
 			(at 165.1 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3506,7 +3936,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u, 50V"
+		(property "Value" "10u"
 			(at 176.53 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)

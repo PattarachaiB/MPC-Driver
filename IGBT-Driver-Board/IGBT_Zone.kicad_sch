@@ -193,12 +193,569 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys:74655095R"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "74655095R"
+				(at 16.51 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SamacSys_Parts:74655095R"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74655095R.pdf"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "WP-THRBU REDCUBE Bush, THR_open height: 4mm, total height: 6.5mm, thread: M5 x 3.5mm, raster: 4.435mm, on Reel, with Polyimide Tape, REDCUBE THR;  M5, thr 3.5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "4"
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "710-74655095R"
+				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74655095R?qs=lBTPRtX1sU9%252Bxb2%252Be9OSbA%3D%3D"
+				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "74655095R"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "74655095R_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCOM"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCOM"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCOM\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCOM_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "VCOM_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 105.41 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00e0ba2a-6ba3-439c-b46f-0670b424593d")
+	)
+	(junction
+		(at 275.59 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fd40cdd-8142-450d-9ddc-a8a3bc267a33")
 	)
 	(junction
 		(at 144.78 90.17)
@@ -217,6 +774,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "216a7068-61c2-4be2-acc0-a4a2e236d63c")
+	)
+	(junction
+		(at 275.59 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "263d51a4-ec40-4e77-b998-7ee359c53fbf")
 	)
 	(junction
 		(at 142.24 143.51)
@@ -267,16 +830,52 @@
 		(uuid "58ca116e-1ab4-450d-b82e-d0f98b7e7bb6")
 	)
 	(junction
+		(at 252.73 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5aba304e-4058-460c-b23c-3814fa0c2972")
+	)
+	(junction
 		(at 142.24 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bf2a176-2455-4074-8619-7c2a7cc5450e")
 	)
 	(junction
+		(at 275.59 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fba248b-7f16-4b5b-ad2a-989276986e8b")
+	)
+	(junction
+		(at 275.59 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71aa2912-f480-4684-af6d-6eee4d671220")
+	)
+	(junction
 		(at 144.78 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74e81f72-eba4-4e19-bb5f-1f43b675ea4a")
+	)
+	(junction
+		(at 252.73 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77806a22-9cc1-4d2d-92e1-dc5ae33a7cf5")
+	)
+	(junction
+		(at 252.73 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b36f45f-8f6e-4333-8ae1-833173b45747")
+	)
+	(junction
+		(at 194.31 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d99347c-39d7-41d0-b7d3-f38cf9652d59")
 	)
 	(junction
 		(at 144.78 106.68)
@@ -321,16 +920,46 @@
 		(uuid "c88ce32e-592f-4059-a183-68afa49665fb")
 	)
 	(junction
+		(at 275.59 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c904f25e-d1d7-4ec8-a07b-e68de12c2ae4")
+	)
+	(junction
 		(at 105.41 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc139ee3-66c2-4b94-8db5-f6f065f3f00e")
 	)
 	(junction
+		(at 252.73 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbf7fe2b-376e-47eb-b68b-d3043fc7f8e2")
+	)
+	(junction
+		(at 252.73 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd697d68-4aad-4f85-b0c3-e5bb0e67cdaf")
+	)
+	(junction
+		(at 275.59 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2f8a96b-5e26-49fa-9bcb-a22b93538bac")
+	)
+	(junction
 		(at 142.24 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9123642-30b5-4068-90fd-73256ac5f19e")
+	)
+	(junction
+		(at 252.73 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edcbfcf2-11a3-4504-997c-da280234d654")
 	)
 	(junction
 		(at 166.37 40.64)
@@ -356,6 +985,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 33.02) (xy 252.73 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d076b8-2114-4205-89e8-c562ae70f344")
+	)
+	(wire
+		(pts
 			(xy 92.71 40.64) (xy 105.41 40.64)
 		)
 		(stroke
@@ -363,6 +1002,56 @@
 			(type default)
 		)
 		(uuid "03b5c523-0d35-438f-b685-e8954efd7e79")
+	)
+	(wire
+		(pts
+			(xy 274.32 58.42) (xy 275.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0537e94e-1940-4a69-8914-a0d2ab402b16")
+	)
+	(wire
+		(pts
+			(xy 275.59 58.42) (xy 275.59 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd3c966-8715-4a82-bd33-edc0246e1f5c")
+	)
+	(wire
+		(pts
+			(xy 275.59 35.56) (xy 275.59 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f25b947-4560-4942-876a-8c720b494b93")
+	)
+	(wire
+		(pts
+			(xy 275.59 55.88) (xy 275.59 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe4a8a5-efa4-4b54-94af-0ab82f5fd89e")
+	)
+	(wire
+		(pts
+			(xy 252.73 39.37) (xy 275.59 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192685e0-5ea0-4e22-8469-1ec6c37767a3")
 	)
 	(wire
 		(pts
@@ -383,6 +1072,26 @@
 			(type default)
 		)
 		(uuid "1f80f991-8c8a-4946-ab36-2c2ece9fb77f")
+	)
+	(wire
+		(pts
+			(xy 252.73 27.94) (xy 252.73 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259eb9ee-a2d5-4944-8ae8-3332e7bc064c")
+	)
+	(wire
+		(pts
+			(xy 254 50.8) (xy 252.73 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b61c37-44c9-464e-9c4f-f01ae22bda68")
 	)
 	(wire
 		(pts
@@ -416,6 +1125,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 27.94) (xy 275.59 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2efd044e-57f0-4d40-91c9-c04304eb1532")
+	)
+	(wire
+		(pts
 			(xy 180.34 40.64) (xy 166.37 40.64)
 		)
 		(stroke
@@ -433,6 +1152,16 @@
 			(type default)
 		)
 		(uuid "33b0f365-7cd6-403c-b964-380b4a9267d0")
+	)
+	(wire
+		(pts
+			(xy 274.32 33.02) (xy 275.59 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c05981a-a568-4be1-9b25-15da3d76708f")
 	)
 	(wire
 		(pts
@@ -486,6 +1215,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 55.88) (xy 252.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e3a7479-e9a5-4c1f-89f9-a23a9c7e2328")
+	)
+	(wire
+		(pts
 			(xy 142.24 60.96) (xy 142.24 77.47)
 		)
 		(stroke
@@ -496,6 +1235,26 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 30.48) (xy 274.32 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5667dafc-d3c7-444f-a00a-9521f466dbe7")
+	)
+	(wire
+		(pts
+			(xy 275.59 33.02) (xy 275.59 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a490ffe-a4d4-4b22-9a5a-eba6476309cb")
+	)
+	(wire
+		(pts
 			(xy 142.24 93.98) (xy 133.35 93.98)
 		)
 		(stroke
@@ -503,6 +1262,16 @@
 			(type default)
 		)
 		(uuid "5dda4391-427b-4a4b-9f69-653932a42d32")
+	)
+	(wire
+		(pts
+			(xy 252.73 58.42) (xy 252.73 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e52d055-5452-44b9-968f-290c68d71067")
 	)
 	(wire
 		(pts
@@ -556,6 +1325,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 27.94) (xy 252.73 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f673bc9-dba9-4dba-b4bc-6e064a1427ee")
+	)
+	(wire
+		(pts
 			(xy 142.24 77.47) (xy 133.35 77.47)
 		)
 		(stroke
@@ -563,6 +1342,56 @@
 			(type default)
 		)
 		(uuid "81211ce3-ccad-4fa5-b967-7e68d3777c5a")
+	)
+	(wire
+		(pts
+			(xy 275.59 50.8) (xy 275.59 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8131094b-d998-400c-bbb8-f2d2fccdb94c")
+	)
+	(wire
+		(pts
+			(xy 274.32 50.8) (xy 275.59 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82981aff-fb52-4a43-98c9-7f2994555469")
+	)
+	(wire
+		(pts
+			(xy 252.73 35.56) (xy 252.73 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8456bdce-f31c-4e33-9535-83131e9a2a38")
+	)
+	(wire
+		(pts
+			(xy 275.59 39.37) (xy 275.59 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87af32a8-3bc8-4069-934e-a3fd8971acd1")
+	)
+	(wire
+		(pts
+			(xy 248.92 33.02) (xy 252.73 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c153369-f7df-49f2-b5ce-29ec23f8dd34")
 	)
 	(wire
 		(pts
@@ -593,6 +1422,56 @@
 			(type default)
 		)
 		(uuid "8dd7d737-681b-441c-b5fe-567f19403c58")
+	)
+	(wire
+		(pts
+			(xy 254 55.88) (xy 252.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f9e97bc-b129-422d-9099-02e6799908ab")
+	)
+	(wire
+		(pts
+			(xy 252.73 50.8) (xy 252.73 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f98cfa-84b0-4a38-8227-ae55c27b169f")
+	)
+	(wire
+		(pts
+			(xy 274.32 27.94) (xy 275.59 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92229596-e220-4b73-9d14-56e0a6d90f32")
+	)
+	(wire
+		(pts
+			(xy 254 35.56) (xy 252.73 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940983ad-c5c1-4ccc-862e-05fe66d256f6")
+	)
+	(wire
+		(pts
+			(xy 252.73 58.42) (xy 252.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9506059a-d72f-4859-aad6-d062f43e6ac9")
 	)
 	(wire
 		(pts
@@ -646,6 +1525,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 55.88) (xy 275.59 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7f7916-382d-4acb-96f8-2fd019ee83fd")
+	)
+	(wire
+		(pts
 			(xy 144.78 123.19) (xy 144.78 106.68)
 		)
 		(stroke
@@ -666,6 +1555,26 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 53.34) (xy 274.32 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c85d22-c211-4350-a85c-e804301e70fb")
+	)
+	(wire
+		(pts
+			(xy 252.73 53.34) (xy 254 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7170aec-0daa-4060-b2a0-a64652d17972")
+	)
+	(wire
+		(pts
 			(xy 133.35 40.64) (xy 144.78 40.64)
 		)
 		(stroke
@@ -676,7 +1585,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 55.88) (xy 198.12 55.88)
+			(xy 180.34 55.88) (xy 194.31 55.88)
 		)
 		(stroke
 			(width 0)
@@ -696,6 +1605,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 55.88) (xy 252.73 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6a2cda-0f92-45ec-81c3-90aa1eb7a516")
+	)
+	(wire
+		(pts
 			(xy 133.35 123.19) (xy 144.78 123.19)
 		)
 		(stroke
@@ -703,6 +1622,16 @@
 			(type default)
 		)
 		(uuid "bb6d1eaf-ba28-431f-8271-06c4484483c3")
+	)
+	(wire
+		(pts
+			(xy 274.32 35.56) (xy 275.59 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc2062ab-50f7-4831-86ed-84b8f65e9829")
 	)
 	(wire
 		(pts
@@ -786,6 +1715,26 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 62.23) (xy 275.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2382253-942a-4904-a567-6a7c916c4399")
+	)
+	(wire
+		(pts
+			(xy 194.31 55.88) (xy 198.12 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4693461-9d1d-4af8-a98a-8c389ff65376")
+	)
+	(wire
+		(pts
 			(xy 180.34 40.64) (xy 198.12 40.64)
 		)
 		(stroke
@@ -803,6 +1752,26 @@
 			(type default)
 		)
 		(uuid "d6ee44e2-00a0-4ef8-91a2-9c28a7c76891")
+	)
+	(wire
+		(pts
+			(xy 194.31 55.88) (xy 194.31 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82bbdcf-6345-4960-a497-d4777482bc39")
+	)
+	(wire
+		(pts
+			(xy 252.73 33.02) (xy 252.73 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8db88c6-c475-46ba-bb79-546f7ff3d6c9")
 	)
 	(wire
 		(pts
@@ -866,6 +1835,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 62.23) (xy 275.59 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a117e3-1e07-4036-88de-7472526ef757")
+	)
+	(wire
+		(pts
 			(xy 105.41 90.17) (xy 105.41 73.66)
 		)
 		(stroke
@@ -886,6 +1865,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 71.12) (xy 194.31 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee220676-1f2f-4a95-8953-3f151edb0fca")
+	)
+	(wire
+		(pts
 			(xy 111.76 123.19) (xy 105.41 123.19)
 		)
 		(stroke
@@ -896,6 +1885,26 @@
 	)
 	(wire
 		(pts
+			(xy 254 58.42) (xy 252.73 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5f3af7-a70e-4842-ac9d-4a6997fb20f9")
+	)
+	(wire
+		(pts
+			(xy 252.73 30.48) (xy 254 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c96a3d-566b-4f1e-a8c4-42752319cecd")
+	)
+	(wire
+		(pts
 			(xy 166.37 40.64) (xy 166.37 44.45)
 		)
 		(stroke
@@ -903,6 +1912,16 @@
 			(type default)
 		)
 		(uuid "f4cc1855-ea47-4b18-91af-96ab38dcfe0c")
+	)
+	(wire
+		(pts
+			(xy 252.73 35.56) (xy 252.73 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f51696d6-aaa1-4a70-8789-42ba1fa90ff1")
 	)
 	(wire
 		(pts
@@ -964,6 +1983,54 @@
 	)
 	(global_label "C_BUS"
 		(shape input)
+		(at 248.92 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "497eaa03-6125-454e-893e-98328601036e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.8872 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "E_BUS"
+		(shape input)
+		(at 248.92 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e389ca48-273f-457b-9c1e-bb63052b6ab7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.0082 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "C_BUS"
+		(shape input)
 		(at 198.12 40.64 0)
 		(fields_autoplaced yes)
 		(effects
@@ -983,6 +2050,326 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys:74655095R")
+		(at 254 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a7d3c8a-d6b3-4ddf-8777-0249f1256cd0")
+		(property "Reference" "J5"
+			(at 264.16 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74655095R"
+			(at 264.16 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:74655095R"
+			(at 270.51 122.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74655095R.pdf"
+			(at 270.51 222.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "WP-THRBU REDCUBE Bush, THR_open height: 4mm, total height: 6.5mm, thread: M5 x 3.5mm, raster: 4.435mm, on Reel, with Polyimide Tape, REDCUBE THR;  M5, thr 3.5mm"
+			(at 254 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4"
+			(at 270.51 422.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "710-74655095R"
+			(at 270.51 522.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74655095R?qs=lBTPRtX1sU9%252Bxb2%252Be9OSbA%3D%3D"
+			(at 270.51 622.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 270.51 722.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74655095R"
+			(at 270.51 822.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "09b7262b-ecad-4006-9c01-35e2a7235e38")
+		)
+		(pin "6"
+			(uuid "39c23ce8-aad3-49a8-8f29-36fcb7f8894c")
+		)
+		(pin "2"
+			(uuid "ee32de15-4d62-4dd8-b55f-9e0018e8e33c")
+		)
+		(pin "4"
+			(uuid "a0ae76a7-ad4b-4b44-83ae-b14e721f01ed")
+		)
+		(pin "3"
+			(uuid "56410d76-2253-4f3e-b756-109d37f1e64b")
+		)
+		(pin "5"
+			(uuid "08e207da-5337-45b1-8929-ea56ae2faa2e")
+		)
+		(pin "8"
+			(uuid "855fe9bb-3fc3-442d-b5f8-6846b91bd4ea")
+		)
+		(pin "7"
+			(uuid "c437fcf7-10d6-4d43-9f0b-129947888961")
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys:74655095R")
+		(at 254 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2352d0b7-43dc-4817-87b7-87e99fe6c137")
+		(property "Reference" "J6"
+			(at 264.16 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74655095R"
+			(at 264.16 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:74655095R"
+			(at 270.51 145.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74655095R.pdf"
+			(at 270.51 245.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "WP-THRBU REDCUBE Bush, THR_open height: 4mm, total height: 6.5mm, thread: M5 x 3.5mm, raster: 4.435mm, on Reel, with Polyimide Tape, REDCUBE THR;  M5, thr 3.5mm"
+			(at 254 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4"
+			(at 270.51 445.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "710-74655095R"
+			(at 270.51 545.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74655095R?qs=lBTPRtX1sU9%252Bxb2%252Be9OSbA%3D%3D"
+			(at 270.51 645.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 270.51 745.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74655095R"
+			(at 270.51 845.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "36932505-2326-49ff-b2f8-f705a44d98bb")
+		)
+		(pin "6"
+			(uuid "418a9b42-a7d5-4503-8d68-9a67ffc9d7bc")
+		)
+		(pin "2"
+			(uuid "611c345f-69a9-4b21-900c-88004fc92280")
+		)
+		(pin "4"
+			(uuid "1b7f1243-c734-4ca6-aef7-7f2f217b4669")
+		)
+		(pin "3"
+			(uuid "53789b8c-1bec-40d5-8d1b-d67d5b4b318f")
+		)
+		(pin "5"
+			(uuid "f583d64d-a36d-4f8e-82b6-e013bd9a591f")
+		)
+		(pin "8"
+			(uuid "b897b497-9090-4fde-9b7a-0cc5e9cbbf2d")
+		)
+		(pin "7"
+			(uuid "7312abb3-4079-4221-aaa2-0a57897fc28c")
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8"
+					(reference "J6")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1189,6 +2576,166 @@
 			(project "IGBT-Driver-Board"
 				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 194.31 64.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "852f8feb-147c-4876-b43a-471d24c155fd")
+		(property "Reference" "NT1"
+			(at 195.58 63.4999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 195.58 66.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 194.31 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "44915713-0aca-4705-9e26-5187b10aec91")
+		)
+		(pin "1"
+			(uuid "d661a387-d1de-44a9-9788-a6c0d9c1989f")
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8"
+					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCOM")
+		(at 194.31 71.12 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a575f4d9-2231-49fa-8e04-40b59c3605a7")
+		(property "Reference" "#PWR042"
+			(at 194.31 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCOM"
+			(at 194.31 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCOM\""
+			(at 194.31 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9045f7f-537d-4734-a164-4ffdec99a1bf")
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
