@@ -88,7 +88,9 @@
     "files": []
   },
   "schematic": {
-    "hierarchy_collapsed": [],
+    "hierarchy_collapsed": [
+      "/9df6ec6d-eadf-49d9-a7da-ec796f8156c8/"
+    ],
     "selection_filter": {
       "graphics": true,
       "images": true,

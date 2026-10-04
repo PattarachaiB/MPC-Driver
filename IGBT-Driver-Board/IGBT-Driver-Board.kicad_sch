@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 151.13 105.41)
+		(at 175.26 88.9)
 		(size 59.69 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21,8 +21,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "96774f39-b093-412e-8f8f-b317b1308084")
-		(property "Sheetname" "Input_Logic"
-			(at 151.13 104.6984 0)
+		(property "Sheetname" "Gate_Supply"
+			(at 175.26 88.1884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "Input_Logic.kicad_sch"
-			(at 151.13 128.8546 0)
+			(at 175.26 112.3446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,7 +52,7 @@
 		)
 	)
 	(sheet
-		(at 33.02 105.41)
+		(at 57.15 88.9)
 		(size 48.26 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "9df6ec6d-eadf-49d9-a7da-ec796f8156c8")
 		(property "Sheetname" "IGBT_Stage"
-			(at 33.02 104.6984 0)
+			(at 57.15 88.1884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "IGBT_Zone.kicad_sch"
-			(at 33.02 123.7746 0)
+			(at 57.15 107.2646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,7 +98,7 @@
 		)
 	)
 	(sheet
-		(at 99.06 105.41)
+		(at 123.19 88.9)
 		(size 30.48 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -114,7 +114,7 @@
 		)
 		(uuid "f7fdbf1b-c6b8-4241-910d-37b428a7eb88")
 		(property "Sheetname" "Driver_Output_DESAT"
-			(at 99.06 104.6984 0)
+			(at 123.19 88.1884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "Driver_Output_DESAT.kicad_sch"
-			(at 99.06 123.7746 0)
+			(at 123.19 107.2646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
