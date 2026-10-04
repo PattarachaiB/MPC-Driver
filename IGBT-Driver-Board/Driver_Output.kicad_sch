@@ -2224,7 +2224,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0330e3b9-3c12-480e-82c4-a40a9da21ab0")
 		(property "Reference" "C24"
 			(at 203.2 97.7899 0)
@@ -2237,7 +2236,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10u 50V"
 			(at 203.2 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2248,7 +2247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:RDEC71H106K3K1H03B"
 			(at 200.3552 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2270,9 +2269,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 199.39 99.06 0)
-			(hide yes)
+		(property "Description" ""
+			(at 209.55 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2869,7 +2867,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220p, C0G"
+		(property "Value" "220p, C0G 50V"
 			(at 167.64 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2880,7 +2878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:C330C103J5G5TA"
 			(at 164.7952 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3281,7 +3279,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "81893337-5c89-4b21-924c-6d7f60c48b1e")
 		(property "Reference" "C26"
 			(at 223.52 97.7899 0)
@@ -3294,7 +3291,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 50V"
 			(at 223.52 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3305,7 +3302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:RDER71H104K0M1H03A"
 			(at 220.6752 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3327,9 +3324,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 219.71 99.06 0)
-			(hide yes)
+		(property "Description" ""
+			(at 229.87 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3629,7 +3625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 92.71 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3974,7 +3970,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c6f4d58a-7b63-495f-a3b9-537674f8aea0")
 		(property "Reference" "C27"
 			(at 223.52 107.9499 0)
@@ -3987,7 +3982,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 50V"
 			(at 223.52 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3998,7 +3993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:RDER71H104K0M1H03A"
 			(at 220.6752 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4020,9 +4015,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 219.71 109.22 0)
-			(hide yes)
+		(property "Description" ""
+			(at 229.87 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4056,7 +4050,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d2d21caa-9c20-46a2-bccf-273aaa2c76d6")
 		(property "Reference" "C25"
 			(at 203.2 107.9499 0)
@@ -4069,7 +4062,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10u 50V"
 			(at 203.2 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4080,7 +4073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:RDEC71H106K3K1H03B"
 			(at 200.3552 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4102,9 +4095,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 199.39 109.22 0)
-			(hide yes)
+		(property "Description" ""
+			(at 209.55 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4240,7 +4232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 125.095 96.52 0)
 			(hide yes)
 			(show_name no)

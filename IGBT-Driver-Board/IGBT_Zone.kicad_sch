@@ -2407,7 +2407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Pattarachai's_FootprintLib:D_DO-41_P20.32mm_HV_Horizontal"
 			(at 166.37 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -2511,7 +2511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Pattarachai's_FootprintLib:D_DO-41_P20.32mm_HV_Horizontal"
 			(at 180.34 48.26 0)
 			(hide yes)
 			(show_name no)

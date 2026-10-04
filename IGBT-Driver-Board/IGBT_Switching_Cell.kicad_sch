@@ -391,7 +391,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Pattarachai's_FootprintLib:IXEL40N400"
+			(property "Footprint" "SamacSys_Parts:IXBL60N360"
 				(at 11.43 -100 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1401,7 +1401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pattarachai's_FootprintLib:IXEL40N400"
+		(property "Footprint" "SamacSys_Parts:IXBL60N360"
 			(at 157.48 191.44 0)
 			(hide yes)
 			(show_name no)
