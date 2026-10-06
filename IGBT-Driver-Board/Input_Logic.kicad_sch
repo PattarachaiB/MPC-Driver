@@ -2508,7 +2508,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 204.47 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2588,7 +2588,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 190.5 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2825,7 +2825,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 190.5 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2905,7 +2905,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 118.11 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3076,7 +3076,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 177.8 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3156,7 +3156,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 204.47 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3558,7 +3558,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 166.37 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3881,7 +3881,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 166.37 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3961,7 +3961,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 177.8 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -335,6 +335,254 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Pattarachai's_Lib:Heatsink_150x20x6mm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Pattarachai's_FootprintLib:Heatsink_150x20x6mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Heatsink_150x20x6mm_0_1"
+				(rectangle
+					(start 0 0)
+					(end 24.13 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 22.86 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Heatsink_150x20x6mm_1_1"
+				(pin free line
+					(at 2.54 2.54 270)
+					(length 2.54)
+					(name "H1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at 21.59 2.54 270)
+					(length 2.54)
+					(name "H2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Pattarachai's_Lib:Heatsink_150x20x6mm_flip"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Pattarachai's_FootprintLib:Heatsink_150x20x6mm_flip"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Heatsink_150x20x6mm_flip_0_1"
+				(rectangle
+					(start 0 0)
+					(end 24.13 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 22.86 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Heatsink_150x20x6mm_flip_1_1"
+				(pin free line
+					(at 2.54 2.54 270)
+					(length 2.54)
+					(name "H1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at 21.59 2.54 270)
+					(length 2.54)
+					(name "H2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SamacSys:74655095R"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -812,6 +1060,12 @@
 		(uuid "430ef9e9-3dc6-42df-9f29-9f8a992a8eba")
 	)
 	(junction
+		(at 259.08 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4599073d-c465-4ba5-bcca-4503dedb7fe2")
+	)
+	(junction
 		(at 142.24 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -956,10 +1210,22 @@
 		(uuid "e9123642-30b5-4068-90fd-73256ac5f19e")
 	)
 	(junction
+		(at 264.16 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea1910d7-2256-477f-ac88-8ba13f584cc1")
+	)
+	(junction
 		(at 252.73 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edcbfcf2-11a3-4504-997c-da280234d654")
+	)
+	(junction
+		(at 259.08 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f02a4492-3954-4ba5-978f-f46d0a4b1b33")
 	)
 	(junction
 		(at 166.37 40.64)
@@ -1005,6 +1271,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 104.14) (xy 264.16 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04c10222-fd79-46c1-a8f2-c9b76e5ba078")
+	)
+	(wire
+		(pts
 			(xy 274.32 58.42) (xy 275.59 58.42)
 		)
 		(stroke
@@ -1022,6 +1298,16 @@
 			(type default)
 		)
 		(uuid "0bd3c966-8715-4a82-bd33-edc0246e1f5c")
+	)
+	(wire
+		(pts
+			(xy 240.03 105.41) (xy 240.03 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c9d3d6a-66bb-4066-9112-8bff59e10b36")
 	)
 	(wire
 		(pts
@@ -1095,6 +1381,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 90.17) (xy 240.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2134ce-c0af-428f-83f3-28750cfcc81d")
+	)
+	(wire
+		(pts
 			(xy 111.76 139.7) (xy 105.41 139.7)
 		)
 		(stroke
@@ -1155,6 +1451,26 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 91.44) (xy 259.08 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34276f36-e26c-49a9-a1e4-681556d60f1b")
+	)
+	(wire
+		(pts
+			(xy 259.08 90.17) (xy 264.16 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b3cbb5-ce6e-449d-bb4f-ef697c1b5c4c")
+	)
+	(wire
+		(pts
 			(xy 274.32 33.02) (xy 275.59 33.02)
 		)
 		(stroke
@@ -1212,6 +1528,16 @@
 			(type default)
 		)
 		(uuid "435eee4d-3b4c-480e-bc14-79c42826312a")
+	)
+	(wire
+		(pts
+			(xy 259.08 90.17) (xy 240.03 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44157a5a-ab23-4742-a49d-fb59d58c1859")
 	)
 	(wire
 		(pts
@@ -1545,6 +1871,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 104.14) (xy 259.08 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a8157c-7cf6-4204-b4d0-4223d2053757")
+	)
+	(wire
+		(pts
 			(xy 105.41 106.68) (xy 105.41 90.17)
 		)
 		(stroke
@@ -1585,6 +1921,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 90.17) (xy 266.7 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1936633-b96f-4c66-be16-7f527ffec437")
+	)
+	(wire
+		(pts
 			(xy 180.34 55.88) (xy 194.31 55.88)
 		)
 		(stroke
@@ -1602,6 +1948,16 @@
 			(type default)
 		)
 		(uuid "b7767ecf-f306-4a4d-ab7d-8846fa064a02")
+	)
+	(wire
+		(pts
+			(xy 259.08 104.14) (xy 259.08 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba4c8bff-837b-4239-af9f-0a2f41a69842")
 	)
 	(wire
 		(pts
@@ -1925,6 +2281,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 104.14) (xy 264.16 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4e40a6-8997-41b0-b8f8-2c7dbcee6e8b")
+	)
+	(wire
+		(pts
 			(xy 142.24 160.02) (xy 133.35 160.02)
 		)
 		(stroke
@@ -2002,6 +2368,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "E_BUS"
+		(shape input)
+		(at 266.7 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d28b0bc-85a6-4843-aff3-185fc971a191")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.6118 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -2374,6 +2764,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Pattarachai's_Lib:Heatsink_150x20x6mm")
+		(at 237.49 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6314d912-3ca8-4dd6-a8cc-e8c31cab58a7")
+		(property "Reference" "U3"
+			(at 249.555 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 237.49 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Pattarachai's_FootprintLib:Heatsink_150x20x6mm"
+			(at 237.49 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89873203-fe3f-4965-8034-182eed931e9a")
+		)
+		(pin "2"
+			(uuid "fafdf744-08a9-4700-84e2-eba1fc8f3618")
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 166.37 48.26 270)
 		(unit 1)
@@ -2615,7 +3085,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pattarachai's_FootprintLib:NetTie-2_SMD_Pad6.0mm"
 			(at 194.31 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2658,6 +3128,86 @@
 			(project "IGBT-Driver-Board"
 				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8"
 					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pattarachai's_Lib:Heatsink_150x20x6mm_flip")
+		(at 237.49 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a37bc47-5965-421b-969e-ffba7a860085")
+		(property "Reference" "U4"
+			(at 249.555 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 237.49 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Pattarachai's_FootprintLib:Heatsink_150x20x6mm_flip"
+			(at 237.49 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6229170-3e40-4a83-bd1d-0dd44a5b7e09")
+		)
+		(pin "2"
+			(uuid "960e8fbf-41b0-49c6-addf-507418cb2cf3")
+		)
+		(instances
+			(project "IGBT-Driver-Board"
+				(path "/3b56684c-fffd-4181-803c-92224cd33d2a/9df6ec6d-eadf-49d9-a7da-ec796f8156c8"
+					(reference "U4")
 					(unit 1)
 				)
 			)
